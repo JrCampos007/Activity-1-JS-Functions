@@ -1,4 +1,5 @@
-//works because of hoisting
+////////////////////WEEK 3: Activity 1/////////////////////
+//Because of function hoisting, this works in JavaScript (Proved)
 print_word("word");
 
 function print_word(word) 
@@ -10,7 +11,8 @@ function print_word(word)
 	}
 }
 
-//does not work
+//Writing a function which is assigned to a variable. Calling it before it is assigned and proving that this does not work
+//(Proved)
 printWord("word");
 
 var printWord = function() {
